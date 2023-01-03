@@ -9,12 +9,19 @@ body {
   font-family: sans-serif;
 }
 .item {
-  font-size: 35px;
-  padding: 5px;
-  color: #fff;
+  display: flex;
+  color: wheat;
+  font-size: 25px;
+  font-weight: bold;
   background-color: tomato;
-  width: 50px;
+  width: 100px;
   height: 50px;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  border: 5px solid orange;
+  margin: 50px 50px;
 }
 
 .item:nth-child(odd) {
