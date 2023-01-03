@@ -1,0 +1,20 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: wheat;
+  font-family: sans-serif;
+}
+.item {
+  font-size: 35px;
+  padding: 5px;
+  color: #fff;
+  background-color: tomato;
+}
+
+.item:nth-child(odd) {
+  background-color: cornflowerblue;
+}
