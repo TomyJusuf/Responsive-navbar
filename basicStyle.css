@@ -13,6 +13,8 @@ body {
   padding: 5px;
   color: #fff;
   background-color: tomato;
+  width: 50px;
+  height: 50px;
 }
 
 .item:nth-child(odd) {
