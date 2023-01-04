@@ -2,7 +2,7 @@
   display: flex;
   border: 5px solid orange;
   margin: 50px auto;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   /* max-width: 700px; */
 }
 
