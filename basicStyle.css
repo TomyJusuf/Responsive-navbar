@@ -22,6 +22,7 @@ body {
   height: 50px;
   justify-content: center;
   align-items: center;
+  padding: 5px 10px;
 }
 
 .item:nth-child(odd) {
