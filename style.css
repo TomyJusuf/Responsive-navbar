@@ -3,3 +3,14 @@
   border: 5px solid orange;
   margin: 50px auto;
 }
+
+.home {
+  flex: 1;
+  /* flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0; */
+}
+
+.search {
+  flex: 1;
+}
