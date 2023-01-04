@@ -13,18 +13,3 @@ body {
   height: 70%;
   padding: 10px;
 }
-.item {
-  display: flex;
-  color: wheat;
-  font-size: 25px;
-  font-weight: bold;
-  background-color: tomato;
-  height: 50px;
-  justify-content: center;
-  align-items: center;
-  padding: 5px 10px;
-}
-
-.item:nth-child(odd) {
-  background-color: cornflowerblue;
-}
