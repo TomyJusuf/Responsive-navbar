@@ -1,15 +1,10 @@
 .container {
   display: flex;
   border: 5px solid orange;
-  width: 1200px;
-  margin: 0 auto;
-  height: 350px;
-  align-items: center;
-}
-
-.logout {
-  align-self: start;
-}
-.home {
-  align-self: end;
+  max-width: 800px;
+  margin: 50px auto;
+  height: 100%;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
 }

@@ -8,6 +8,11 @@ body {
   background-color: wheat;
   font-family: sans-serif;
 }
+html,
+body {
+  height: 70%;
+  padding: 10px;
+}
 .item {
   display: flex;
   color: wheat;
