@@ -1,17 +1,8 @@
 .container {
   display: flex;
   border: 5px solid orange;
-  max-width: 1200px;
+  width: 1200px;
   margin: 0 auto;
-}
-
-/* .container > .search {
-  flex: 2;
-}
-.container > .home,
-.logout {
-  flex: 4;
-} */
-.home {
-  flex: 1;
+  height: 350px;
+  align-items: center;
 }
