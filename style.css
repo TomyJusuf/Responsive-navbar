@@ -1,26 +1,17 @@
 .container {
   display: flex;
   border: 5px solid orange;
-  width: 690px;
+  width: 450px;
+  flex-wrap: wrap;
   margin: 50px auto;
 }
 
 .container > .home {
-  flex-grow: 0;
-  /* flex-basis: 300px; */
-  /* flex: 1; */
-  /* flex-shrink: 1; */
+  flex: 1;
 }
 .container > .search {
-  flex-grow: 0;
-  /* flex-basis: 300px; */
-  /* flex: 2; */
-  /* flex-shrink: 3; */
+  flex: 3;
 }
-
-.container > .logout {
-  flex-grow: 4;
-  /* flex-basis: 300px; */
-  /* flex: 1; */
-  /* flex-shrink: 1; */
+.container > .profile {
+  flex: 1;
 }
