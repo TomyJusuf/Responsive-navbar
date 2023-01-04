@@ -4,19 +4,3 @@
   margin: 50px auto;
   /* width: 700px; */
 }
-
-.home {
-  flex: 1 1 200px;
-  /* flex-grow: 1;
-  flex-grow: 1;
-  flex-shrink: 5;
-  flex-basis: 200px;
-  */
-}
-
-.search {
-  flex: 10 1 200px;
-  /*   flex-grow: 1;
-  flex-shrink: 1; */
-  /* flex-basis: 200px; */
-}
