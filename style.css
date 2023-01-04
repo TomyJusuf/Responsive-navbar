@@ -3,15 +3,3 @@
   border: 5px solid orange;
   margin: 50px auto;
 }
-
-.home {
-  order: 1;
-}
-
-.logout {
-  order: -1;
-}
-
-.search {
-  flex: 1;
-}
