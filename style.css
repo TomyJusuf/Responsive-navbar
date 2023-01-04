@@ -2,10 +2,4 @@
   display: flex;
   border: 5px solid orange;
   margin: 50px auto;
-  flex-wrap: nowrap;
-  /* max-width: 700px; */
-}
-
-.container > div {
-  width: 300px;
 }
