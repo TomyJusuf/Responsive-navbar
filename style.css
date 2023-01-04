@@ -1,6 +1,10 @@
 .container {
   display: flex;
   border: 5px solid orange;
-  max-width: 600px;
   margin: 50px auto;
+  flex-wrap: wrap;
+}
+
+.container > div {
+  width: 300px;
 }
