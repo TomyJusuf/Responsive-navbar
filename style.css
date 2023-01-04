@@ -1,17 +1,10 @@
 .container {
   display: flex;
   border: 5px solid orange;
-  width: 450px;
-  flex-wrap: wrap;
-  margin: 50px auto;
+  max-width: 700px;
+  margin: 0 auto;
 }
 
-.container > .home {
-  flex: 1;
-}
 .container > .search {
   flex: 3;
-}
-.container > .profile {
-  flex: 1;
 }
